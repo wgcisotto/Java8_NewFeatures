@@ -1,4 +1,4 @@
-package br.com.wgcisotto;
+import br.com.wgcisotto.Validator;
 
 public class FunctionalInterfaceMain {
 
