@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class Chapter2 {
+public class WorkingWithLoopsMain {
 
     public static void main (String ... args){
 
