@@ -30,7 +30,9 @@ faz bastante sentido.
 Para quebrar melhor a especificação do Java 8 em tarefas menores, foram criadas
 as JEPs: JDK Enhancement Proposals. É uma ideia que nasceu dos PEPs, proposta
 similar da comunidade Python. A JEP 0 é uma lista com todas essas propostas:
+
 http://openjdk.java.net/jeps/0
+
 Como você pode ver, são muitas as novidades no JDK8. Infelizmente nem todas
 tiveram tempo suficiente para amadurecer. Entre as JEPs propostas, os Value Objects
 ficaram de fora:
