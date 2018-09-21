@@ -2,6 +2,11 @@ package br.com.wgcisotto;
 
 import java.util.function.Consumer;
 
+/**
+ * Classe criada implementar interface funcional default do java
+ *
+ */
+
 class UserConsumer implements Consumer<User>{
 
     @Override

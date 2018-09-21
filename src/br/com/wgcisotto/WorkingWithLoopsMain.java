@@ -4,6 +4,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
+
+/**
+ * Classe criada para testar algumas formas de fazer loop.
+ *
+ */
+
 public class WorkingWithLoopsMain {
 
     public static void main (String ... args){

@@ -1,7 +1,14 @@
 package br.com.wgcisotto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
+
+
+/**
+ * Entity User.
+ *
+ * Used for testing
+ *
+ */
 
 @Data
 class User {

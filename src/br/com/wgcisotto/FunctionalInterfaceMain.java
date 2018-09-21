@@ -1,5 +1,11 @@
-import br.com.wgcisotto.Validator;
+package br.com.wgcisotto;
 
+
+/**
+ * Classe criada para testar minha propria interface funcional
+ * onde no teste foi feito uma validacao de CEP com Regex.
+ *
+ */
 public class FunctionalInterfaceMain {
 
     public static void main (String ... args){
