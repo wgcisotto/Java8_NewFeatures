@@ -1,4 +1,4 @@
-package br.com.wgcisotto;
+package br.com.wgcisotto.model;
 
 import lombok.Data;
 
@@ -11,7 +11,7 @@ import lombok.Data;
  */
 
 @Data
-class User {
+public class User {
 
     public User(String name, int points){
         this.name = name;

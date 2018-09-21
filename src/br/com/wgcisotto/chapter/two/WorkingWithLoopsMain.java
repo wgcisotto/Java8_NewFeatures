@@ -1,4 +1,6 @@
-package br.com.wgcisotto;
+package br.com.wgcisotto.chapter.two;
+
+import br.com.wgcisotto.model.User;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,6 @@
-package br.com.wgcisotto;
+package br.com.wgcisotto.chapter.two;
+
+import br.com.wgcisotto.model.User;
 
 import java.util.function.Consumer;
 
@@ -7,7 +9,7 @@ import java.util.function.Consumer;
  *
  */
 
-class UserConsumer implements Consumer<User>{
+public class UserConsumer implements Consumer<User>{
 
     @Override
     public void accept(User user) {

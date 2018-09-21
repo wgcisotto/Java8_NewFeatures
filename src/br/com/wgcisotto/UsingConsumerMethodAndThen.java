@@ -1,5 +1,7 @@
 package br.com.wgcisotto;
 
+import br.com.wgcisotto.model.User;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
