@@ -1,10 +1,11 @@
-package br.com.wgcisotto;
+package br.com.wgcisotto.chapter.four;
 
 import br.com.wgcisotto.model.User;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 public class UsingConsumerMethodAndThen {
 
@@ -37,8 +38,35 @@ public class UsingConsumerMethodAndThen {
          */
 
 
+        /**
+         *
+         * NOVO Metodo em Collection RemoveIf()
+         *
+         */
 
 
+        Predicate<User> predicate = new Predicate<User>() {
+            @Override
+            public boolean test(User user) {
+                return user.getPoints() > 79;
+            }
+        };
+
+
+        listUsersName(users);
+
+        users.removeIf(predicate);
+
+        listUsersName(users);
+
+
+
+
+    }
+
+
+    private static void listUsersName(List<User> users){
+        users.forEach(u -> System.out.println(u.getName()));
     }
 
 }

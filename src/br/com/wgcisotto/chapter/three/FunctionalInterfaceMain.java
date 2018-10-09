@@ -1,5 +1,7 @@
-package br.com.wgcisotto;
+package br.com.wgcisotto.chapter.three;
 
+
+import br.com.wgcisotto.chapter.three.Validator;
 
 /**
  * Classe criada para testar minha propria interface funcional

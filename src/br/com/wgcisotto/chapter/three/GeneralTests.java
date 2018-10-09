@@ -1,4 +1,4 @@
-package br.com.wgcisotto;
+package br.com.wgcisotto.chapter.three;
 
 /**
  * Classe criada para testar alguns recursos
